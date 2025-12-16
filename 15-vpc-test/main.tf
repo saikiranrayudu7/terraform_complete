@@ -8,6 +8,7 @@ module "roboshop" {
   #public subnet
   public_subnets_cidr = var.public_subnets_cidr
   public_subnets_tags = var.public_subnets_tags
+  
   #private subnet
   private_subnets_cidr = var.private_subnets_cidr
   private_subnets_tags = var.private_subnets_tags
